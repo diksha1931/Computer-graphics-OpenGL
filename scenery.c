@@ -18,6 +18,7 @@ void declare(char *string)
         glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, *string++);
 }
 
+
 void draw_pixel(GLint cx, GLint cy)
 {
 
