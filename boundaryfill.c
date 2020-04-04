@@ -30,6 +30,7 @@ void bound_it(int x, int y, float* fillColor, float* bc)
         bound_it(x,y-2,fillColor,bc);
     }
 }
+
 void mouse(int btn, int state, int x, int y)
 {
     y = 480-y;
